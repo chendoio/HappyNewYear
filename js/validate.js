@@ -46,29 +46,3 @@ function Success(input) {
     const formControl = input.parentElement;
     formControl.className = 'form-control success'; 
 }
-
-// message top alert
-// function messageAlert() {
-//     const alert = document.querySelector('.bg-color');
-//     if(!alert) {
-//         const messAlert = document.querySelector('.messAlert');
-//         const divAlert = document.createElement('DIV');
-//         divAlert.classList.add('bg-color');
-        
-//         const p = document.createElement('P');
-//         p.textContent = 'All Fields Required';
-//         p.style.color = '#5ca391';
-//         p.style.textTransform = 'uppercase';
-//         p.style.letterSpacing = '.2em';
-//         p.style.padding = '.5em 1em';
-    
-//         divAlert.appendChild(p);
-//         messAlert.insertBefore(divAlert, messAlert.children[0]);
-
-//         setTimeout(() => {
-//             divAlert.remove();
-//         }, 3000);
-//     }  
-//     return;
-    
-// }
