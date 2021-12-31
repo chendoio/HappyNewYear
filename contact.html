@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ac5523c42b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Main Responsive by Chendo</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menuBar">
+          <img src="img/menuBarOn.svg" alt="menu bar" class="menuBarOn">
+        </div>
+        <nav class="navigation box-shadow">
+            <div class="contenido">
+                <div class="change">
+                     <a href="home.html" id="home">
+                         Home
+                     </a>
+                </div>
+                <div >
+                     <a href="about.html" id="about">
+                         About
+                     </a>
+                </div>           
+                <div >
+                     <a href="blog.html" id="blog">
+                         Blog
+                     </a>
+                </div>
+                <div >
+                     <a href="contact.html" id="contact">
+                         Contact
+                     </a>
+                </div>  
+             </div>                
+        </nav>
+        <div class="main-h1">
+            <h1>
+                Contact
+            </h1>
+        </div>
+        <main class="main-container">  
+                 <div class="form-hny">
+                    <div class="form-img">
+                        <img src="img/contact.svg" alt="">
+                    </div>
+                     <form id="form" action="contact.html" autocomplete="off">
+                            <div class="form-control">
+                                <input type="text" name="name" id="username" placeholder="Name">
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                            <div class="form-control">
+                                <input type="email" name="email" id="email" placeholder="Email">
+                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-exclamation-circle"></i>
+                            </div>
+                            <div class="form-control">
+                                <textarea type="text" name="message" id="message" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" id="button">Submit</button>
+                     </form>
+                  </div> 
+         </main>    
+     </div>      
+<script src="js/main.js"></script>   
+<script src="js/validate.js"></script>   
+</body>
+</html>
