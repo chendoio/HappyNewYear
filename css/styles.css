@@ -341,8 +341,13 @@ textarea {
     margin-left: .5em;
     padding: .3em;
     width: 7em;
-    align-self: flex-end;
     position: relative;
     cursor: pointer;
     z-index: 999;
+}
+.endBtn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: .3em;
 }
